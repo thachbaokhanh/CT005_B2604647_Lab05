@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Trang giới thiệu cá nhân của Thạch Bảo Khanh, sinh viên Kỹ thuật phần mềm.">
+<title>Thạch Bảo Khanh | Software Engineering Student</title>
+<style>
+:root{--bg:#081426;--panel:#10223a;--text:#edf5ff;--muted:#afc2dc;--accent:#61c8ff;--line:rgba(180,210,245,.16)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(ellipse at 80% 0%,#12365b 0,transparent 42%),var(--bg);color:var(--text);line-height:1.7}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{width:min(1080px,92%);margin:auto}
+header{position:sticky;top:0;background:rgba(8,20,38,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);z-index:5}
+nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:15px 0}
+.brand{font-weight:800;letter-spacing:.04em}
+.links{display:flex;gap:18px;flex-wrap:wrap;font-size:.92rem}
+.hero{padding:96px 0 72px;display:grid;grid-template-columns:1.5fr .8fr;gap:42px;align-items:center}
+.eyebrow{color:var(--accent);font-size:.82rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase}
+h1{font-size:clamp(2.7rem,7vw,5.4rem);line-height:1.03;letter-spacing:-.055em;margin:15px 0}
+h1 span{color:var(--accent)}
+.lead{font-size:1.15rem;color:var(--muted);max-width:650px}
+.pill{display:inline-block;border:1px solid rgba(97,200,255,.35);background:rgba(97,200,255,.09);border-radius:999px;padding:7px 13px;color:#c7ecff;font-size:.9rem;margin:8px 7px 0 0}
+.profile-card,.card{background:linear-gradient(145deg,rgba(20,44,72,.92),rgba(12,29,49,.92));border:1px solid var(--line);border-radius:22px;padding:25px;box-shadow:0 20px 55px rgba(0,0,0,.15)}
+.profile-card .monogram{width:86px;height:86px;border-radius:24px;display:grid;place-items:center;font-size:2rem;font-weight:900;color:#07182b;background:linear-gradient(135deg,#8ee1ff,#5c9fff);margin-bottom:22px}
+.profile-card h2{margin:0 0 5px;font-size:1.35rem}
+.profile-card p{margin:0;color:var(--muted)}
+.meta{display:grid;gap:12px;margin-top:22px}
+.meta div{border-top:1px solid var(--line);padding-top:10px}
+.meta strong{display:block;font-size:.78rem;color:var(--muted);font-weight:600}
+section{padding:44px 0;scroll-margin-top:85px}
+.section-head{margin-bottom:23px}
+.section-head .eyebrow{font-size:.75rem}
+h2.section-title{font-size:clamp(1.8rem,4vw,2.6rem);margin:4px 0 0;letter-spacing:-.035em}
+p{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.card h3{margin:0 0 8px;font-size:1.16rem}
+.card p{margin:0}
+.card .tag{font-size:.8rem;color:var(--accent);font-weight:700;margin-bottom:8px}
+.skills{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
+.skill{padding:9px 13px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.035)}
+.timeline{border-left:2px solid rgba(97,200,255,.5);padding-left:22px;margin-left:6px}
+.timeline .card{position:relative}
+.timeline .card:before{content:"";position:absolute;width:10px;height:10px;background:var(--accent);border-radius:50%;left:-29px;top:29px}
+.quote{font-size:1.35rem;color:var(--text);border-left:3px solid var(--accent);padding:5px 0 5px 20px}
+footer{border-top:1px solid var(--line);margin-top:35px;padding:28px 0 40px;color:var(--muted);font-size:.9rem}
+.small{font-size:.9rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:65px 0 35px}.grid{grid-template-columns:1fr}.links{gap:10px}.links a{font-size:.82rem}nav{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<header>
+  <nav class="wrap">
+    <a class="brand" href="#top">TBK<span style="color:var(--accent)">.</span></a>
+    <div class="links">
+      <a href="#about">Giới thiệu</a><a href="#education">Học tập</a><a href="#skills">Kỹ năng</a><a href="#interests">Sở thích</a><a href="#goals">Mục tiêu</a>
+    </div>
+  </nav>
+</header>
+<main id="top">
+  <div class="wrap hero">
+    <div>
+      <div class="eyebrow">Personal portfolio · 2026—2031</div>
+      <h1>THẠCH BẢO<br><span>KHANH</span></h1>
+      <p class="lead">Sinh viên Kỹ thuật phần mềm tại Đại học Cần Thơ. Yêu thích công nghệ, lập trình web và hành trình biến những ý tưởng thành sản phẩm hữu ích.</p>
+      <span class="pill">Software Engineering</span><span class="pill">Web Development</span><span class="pill">Lifelong Learning</span>
+    </div>
+    <aside class="profile-card">
+      <div class="monogram">BK</div>
+      <h2>Thạch Bảo Khanh</h2>
+      <p>Sinh viên · Người học công nghệ</p>
+      <div class="meta">
+        <div><strong>NGÀY SINH</strong>27/05/2008</div>
+        <div><strong>TRƯỜNG</strong>Đại học Cần Thơ</div>
+        <div><strong>CHƯƠNG TRÌNH HỌC</strong>2026–2031</div>
+        <div><strong>ĐỊA ĐIỂM HỌC TẬP</strong>Khu II, đường 3/2, phường Ninh Kiều, Cần Thơ</div>
+      </div>
+    </aside>
+  </div>
+
+  <section id="about"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">01 / About me</div><h2 class="section-title">Xin chào, mình là Khanh.</h2></div>
+    <div class="card">
+      <p>Mình đang theo học lĩnh vực Kỹ thuật phần mềm tại Đại học Cần Thơ. Mình quan tâm đến cách công nghệ được xây dựng và ứng dụng để giải quyết các vấn đề thực tế. Với tinh thần ham học hỏi, mình mong muốn từng bước củng cố kiến thức nền tảng, nâng cao kỹ năng thực hành và tích lũy kinh nghiệm thông qua các bài tập, sản phẩm cá nhân và dự án học tập.</p>
+    </div>
+  </div></section>
+
+  <section id="education"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">02 / Education</div><h2 class="section-title">Quá trình học tập</h2></div>
+    <div class="timeline"><div class="card">
+      <div class="tag">2026 — 2031 · DỰ KIẾN</div><h3>Đại học Cần Thơ</h3>
+      <p>Định hướng Kỹ thuật phần mềm. Tập trung xây dựng nền tảng lập trình, tư duy thuật toán, phát triển ứng dụng và kỹ năng làm việc theo dự án.</p>
+    </div></div>
+  </div></section>
+
+  <section id="skills"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">03 / Skills & interests</div><h2 class="section-title">Kỹ năng & chuyên môn</h2></div>
+    <div class="grid">
+      <article class="card"><div class="tag">NỀN TẢNG HIỆN CÓ</div><h3>Lập trình web HTML</h3><p>Đã có kinh nghiệm thực hành HTML để xây dựng cấu trúc trang web. Tiếp tục rèn luyện qua bài tập và sản phẩm thực tế.</p></article>
+      <article class="card"><div class="tag">ĐANG PHÁT TRIỂN</div><h3>Phát triển phần mềm</h3><p>Định hướng học thêm CSS, JavaScript, tư duy giải quyết vấn đề và quy trình xây dựng phần mềm.</p></article>
+    </div>
+    <div class="skills"><span class="skill">HTML</span><span class="skill">Web Fundamentals</span><span class="skill">Problem Solving</span><span class="skill">Self-learning</span></div>
+  </div></section>
+
+  <section id="experience"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">04 / Experience</div><h2 class="section-title">Kinh nghiệm thực hành</h2></div>
+    <div class="card"><h3>Thực hành xây dựng trang web bằng HTML</h3><p>Mình đã làm quen với HTML và cách tổ chức nội dung trên trang web. Trong thời gian tới, mình mong muốn mở rộng kiến thức về giao diện, tương tác và phát triển các website hoàn chỉnh hơn thông qua quá trình học tập.</p></div>
+  </div></section>
+
+  <section id="interests"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">05 / Beyond coding</div><h2 class="section-title">Sở thích cá nhân</h2></div>
+    <div class="grid">
+      <article class="card"><h3>♪ Nghe nhạc</h3><p>Thư giãn, nạp lại năng lượng và tìm cảm hứng trong thời gian rảnh.</p></article>
+      <article class="card"><h3>🏸 Cầu lông</h3><p>Rèn luyện sức khỏe, sự nhanh nhẹn và tinh thần kiên trì.</p></article>
+      <article class="card"><h3>📚 Tiểu thuyết huyền huyễn</h3><p>Yêu thích những câu chuyện giàu trí tưởng tượng và hành trình khám phá thế giới mới.</p></article>
+      <article class="card"><h3>⌘ Khám phá công nghệ</h3><p>Tìm hiểu các kiến thức mới về lập trình và cách công nghệ được ứng dụng trong đời sống.</p></article>
+    </div>
+  </div></section>
+
+  <section id="goals"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">06 / The road ahead</div><h2 class="section-title">Mục tiêu tương lai</h2></div>
+    <div class="card">
+      <p>Mình hướng tới việc trở thành một kỹ sư phần mềm có nền tảng chuyên môn vững chắc, tư duy logic tốt và khả năng xây dựng sản phẩm hữu ích. Mình sẽ tiếp tục học hỏi, thực hành thường xuyên và chủ động cập nhật các công nghệ mới.</p>
+      <div class="quote">Học hỏi mỗi ngày, cải thiện từng bước và biến ý tưởng thành sản phẩm thực tế.</div>
+      <p class="small">Hiện tại, mình chưa liệt kê thành tích cá nhân nổi bật; mình xem quá trình học tập và hoàn thiện kỹ năng là những bước tiến quan trọng trên hành trình phát triển.</p>
+    </div>
+  </div></section>
+</main>
+<footer><div class="wrap">© 2026 Thạch Bảo Khanh · Trang giới thiệu cá nhân<br><span class="small">Website phục vụ mục đích học tập và xây dựng hồ sơ cá nhân.</span></div></footer>
+</body>
+</html>
